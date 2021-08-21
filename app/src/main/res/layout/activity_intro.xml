@@ -3,20 +3,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+    <ImageView
+        android:src="@drawable/title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
     <LinearLayout
         android:layout_weight="1"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-    <TextView
-        android:textAlignment="center"
-        android:textSize="30sp"
-        android:layout_marginTop="30dp"
-        android:layout_gravity="center_vertical|center_horizontal"
-        android:id="@+id/tvIntroTitle"
-        android:text="SAMPLE"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+<!--    <TextView-->
+<!--        android:textAlignment="center"-->
+<!--        android:textSize="30sp"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:layout_gravity="center_vertical|center_horizontal"-->
+<!--        android:id="@+id/tvIntroTitle"-->
+<!--        android:text="SAMPLE"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"/>-->
+        <ImageView
+            android:src="@drawable/title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
    </LinearLayout>
 
     <LinearLayout

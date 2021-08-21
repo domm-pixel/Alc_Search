@@ -3,23 +3,38 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_weather_alc">
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="com.sample.alc.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/nav_weather_alc"
+        android:name="com.sample.alc.ui.weather.HomeFragment"
+        android:label="@string/str_menu_weather_alc"
+        tools:layout="@layout/fragment_weather" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.sample.alc.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_season_alc"
+        android:name="com.sample.alc.ui.snack.SnackFragment"
+        android:label="@string/str_menu_season_alc"
+        tools:layout="@layout/fragment_season" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.sample.alc.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_recommend_snack"
+        android:name="com.sample.alc.ui.season.SeasonFragment"
+        android:label="@string/str_menu_recommend_snack"
+        tools:layout="@layout/fragment_snack" />
+    <fragment
+        android:id="@+id/nav_question"
+        android:name="com.sample.alc.ui.question.QuestionFragment"
+        android:label="@string/str_menu_question"
+        tools:layout="@layout/fragment_question"/>
+    <fragment
+        android:id="@+id/nav_recommend_alc"
+        android:name="com.sample.alc.ui.recommend.RecommendFragment"
+        android:label="@string/str_menu_recommend_alc"
+        tools:layout="@layout/fragment_recommend"/>
+    <fragment
+        android:id="@+id/nav_event"
+        android:name="com.sample.alc.ui.eventt.EventFragment"
+        android:label="@string/str_menu_event"
+        tools:layout="@layout/fragment_event"/>
 </navigation>

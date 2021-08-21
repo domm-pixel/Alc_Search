@@ -10,4 +10,17 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+
+    <string name="str_menu_season_alc">계절술</string>
+    <string name="str_menu_weather_alc">날씨술</string>
+<!--    <string name="str_menu_today_alc">오늘의술</string>-->
+    <string name="str_menu_recommend_snack">추천안주</string>
+<!--    <string name="str_menu_alc_store">술가게</string>-->
+<!--    <string name="str_menu_regular_delivery">정기배송</string>-->
+    <string name="str_menu_question">문의사항</string>
+    <string name="str_menu_recommend_alc">술추천</string>
+    <string name="str_menu_event">이벤트</string>
+
+
+
 </resources>
